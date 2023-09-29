@@ -3,12 +3,11 @@ import logo from '../assets//logo.svg';
 
 export default function Circle() {
   return (
-    <>
-    <div className ="relative bg-pink rounded-full top-1/3 w-[15rem] h-[15rem] lg:w-[25rem] lg:h-[25rem]">
-    <img  className ="absolute bottom-0 left-0 z-20" src={logo} alt= "logo"/>
+    <div className ="relative w-auto h-auto flex justify-center items-center">
+      <div className = "bg-pink rounded-full  w-[300px] h-[300px] lg:w-[500px] lg:h-[500px]"></div>
+      <img  className ="absolute right-0 w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] " src={logo} alt="logo"></img>
+  
+
     </div>
-
-
-    </>
   )
 }
