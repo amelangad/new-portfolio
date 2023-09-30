@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b3fa659.css",
+    "main.js": "/static/js/main.c13b998d.js",
+    "static/media/shotx.png": "/static/media/shotx.ae047aac49c036a4d52f.png",
+    "static/media/movies.png": "/static/media/movies.bec57ab855f0eb3dd735.png",
+    "static/media/bigbag.png": "/static/media/bigbag.7587cb8c1aa4dbc0a341.png",
+    "static/media/kamar.jpg": "/static/media/kamar.284bbbe8ceb737375d03.jpg",
+    "static/media/beauty.jpg": "/static/media/beauty.ce1e3bbf656e2f7da686.jpg",
+    "static/media/3d.png": "/static/media/3d.10a3ecac5c574b5feb6e.png",
+    "static/media/line.svg": "/static/media/line.23d6f83fc46ff953be5cf90feae9066e.svg",
+    "static/media/logo.svg": "/static/media/logo.6cac75b0fc53ef5eeef6e7ed8245eaa8.svg",
+    "index.html": "/index.html",
+    "main.4b3fa659.css.map": "/static/css/main.4b3fa659.css.map",
+    "main.c13b998d.js.map": "/static/js/main.c13b998d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b3fa659.css",
+    "static/js/main.c13b998d.js"
+  ]
+}
