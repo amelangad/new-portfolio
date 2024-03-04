@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 export default function About() {
   return (
     <motion.div
-    className ="w-full h-full bg-pink flex justify-center items-center overflow-hidden"
+    className ="w-full h-full bg-pink flex justify-center items-center"
     id ="about"
     initial={{y:100}}
     whileInView={{y:0}}

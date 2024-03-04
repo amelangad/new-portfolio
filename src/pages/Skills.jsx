@@ -19,8 +19,8 @@ export default function Skills() {
       <Ability name="Git" delay="700ms"/>
       <Ability name="English B2 level" delay="2000ms" />
       <Ability name="base of node/express" delay="1800ms"/>
-      <Ability name="self-motivated" delay="1500ms"/>
-      <Ability name="hard-working"delay="1200ms"/>
+      <Ability name="base of PHP and MySQL" delay="1500ms"/>
+      <Ability name="self-motivated"delay="1200ms"/>
       <Ability name="creative, open mind" delay="900ms"/>
       <Ability name="ability to work in a team or independently" delay="600ms"/>
       <Ability name="alytical thinking" delay="300ms"/>

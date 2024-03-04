@@ -10,6 +10,11 @@ module.exports = {
       'pink': '#ff0066',
       'black': '#000000',
     },
+    screens: {
+      'md': '700px',
+      'lg': '1300px',
+      'xl': '1600px',
+    },
     extend: {},
   },
   plugins: [],

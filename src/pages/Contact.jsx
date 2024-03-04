@@ -6,18 +6,19 @@ export default function Contact() {
   const data = new Date();
   const year = data.getFullYear();
 
+
   return (
     <motion.div id="contact"
-    className= "flex flex-col-reverse lg:flex-row  justify-center lg:justify-between items-center w-full h-auto"
+    className= "flex flex-col-reverse lg:flex-row  justify-center lg:justify-between items-center w-full h-auto overflow-hidden lg:overflow-visible"
     >
         <motion.div
-        className ="text-xl ml-5 flex justify-center"
+        className ="text-xl ml-5 flex justify-center overflow-hidden"
         initial={{y:-110, x:800 }}
         whileInView={{y: 0 ,x:0}}
         transition ={{ duration: .5, delay: .1}}>
       &copy; Magda {year}</motion.div>
     <motion.div
-      className="lg:h-20 flex flex-row justify-end items-center mr-10"
+      className="lg:h-20 flex flex-row justify-end items-center mr-0 lg:mr-10"
       initial={{y:-110, x:-800 }}
         whileInView={{y: 0 ,x:0}}
         transition ={{ duration: .5, delay: .1}}>
@@ -51,4 +52,5 @@ export default function Contact() {
            </motion.div>
     </motion.div>
   )
+  
 }
