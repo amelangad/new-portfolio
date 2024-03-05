@@ -22,7 +22,7 @@ const img2 = {
 const img3 = {
     id: 3,
     src: image9,
-    href: "hhttps://wildcampshop.netlify.app/"
+    href: "https://wildcampshop.netlify.app/"
 }
 
 const img4 = {
