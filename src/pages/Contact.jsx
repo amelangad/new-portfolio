@@ -7,6 +7,7 @@ export default function Contact() {
   const year = data.getFullYear();
 
 
+  if(window.innerWidth>1300)
   return (
     <motion.div id="contact"
     className= "flex flex-col-reverse lg:flex-row  justify-center lg:justify-between items-center w-full h-auto overflow-hidden lg:overflow-visible"
@@ -51,6 +52,35 @@ export default function Contact() {
            <FaPhoneAlt /></a></motion.div>
            </motion.div>
     </motion.div>
+  )
+  return (
+    <div id="contact"
+    className= "flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center w-full h-auto overflow-hidden lg:overflow-visible">
+        <div
+        className ="text-xl flex justify-center items-center overflow-hidden">
+      &copy; Magda {year}</div>
+    <div
+      className="lg:h-20 flex flex-row  gap-5 justify-center items-center mr-0 my-5">
+          <div
+           className="p-3 rounded-xl bg-pink cursor-pointer">
+           <a 
+           href="mailto:slodzinska.magdalena@gmail.com"
+            className=" text-md lg:text-3xl  px-3 lg:px-10 flex justify-center">
+            <FaEnvelope /></a></div>
+            <div
+           className="p-3  rounded-xl bg-pink cursor-pointer">
+           <a 
+           href="https://github.com/amelangad"
+            className=" text-md lg:text-3xl  px-3 lg:px-10 flex justify-center">
+            <FaGithub /></a></div>
+            <div
+           className="p-3 rounded-xl px-3 bg-pink cursor-pointer">
+           <a 
+            href="tel:+48535828465"
+            className="text-md lg:text-3xl">
+           <FaPhoneAlt /></a></div>
+           </div>
+    </div>
   )
   
 }
